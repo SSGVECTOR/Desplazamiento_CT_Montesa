@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+server/public/
+
+# Vite
+vite.config.ts.*
+*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Temp files
+*.tar.gz
+tmp/
+temp/
+
+# Replit specific
+.replit
+replit.nix
+.cache/
+.upm/
+
+# Database
+*.db
+*.sqlite
